@@ -7,11 +7,11 @@ Practice making website
 | --| -- |
 
 # Checklist - To- do Frontend
-- [] Homepage
-- [] About Me
-- [] Contact Me
-- [] Blog
-- [] Features
+- [ ] Homepage
+- [ ] About Me
+- [ ] Contact Me
+- [ ] Blog
+- [ ] Features
 - [x] Login
 
 

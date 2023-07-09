@@ -12,7 +12,7 @@ Practice making website
 - [] Contact Me
 - [] Blog
 - [] Features
-- [] Login
+- [x] Login
 
 # Checklist
 - [] Bisa CRUD untuk Blogpost

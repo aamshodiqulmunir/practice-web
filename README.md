@@ -14,10 +14,11 @@ Practice making website
 - [] Features
 - [x] Login
 
+
 # Checklist
-- [] Bisa CRUD untuk Blogpost
-- [] Menampilkan sesuatu di About Me Page
-- [] Menampilkan Form keren di Contact Me
+- [ ] Bisa CRUD untuk Blogpost
+- [ ] Menampilkan sesuatu di About Me Page
+- [ ] Menampilkan Form keren di Contact Me
 
 
 

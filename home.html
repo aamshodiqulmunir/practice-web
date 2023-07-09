@@ -21,7 +21,11 @@
     </header>
     <section class="section-1">
         <div class="wrapper">
+            <span class="icon-close">
+                <i class='bx bx-x-circle' ></i>
+            </span>
             <div class="logreg-box">
+                <!--Form Box Login-->
                 <div class="form-box login">
                     <div class="logreg-title">
                         <h2>Login</h2>
@@ -43,19 +47,45 @@
                             <input type="password" name="password" id="#password" required>
                             <label for="password">Password</label>
                         </div>
-                        <div class="remember-forgot">
-                            <label for="">
-                                <input type="checkbox" name="remember-forgot" id="#remember-forgot">
-                                Remember Me
-                            </label>
-                            <a href="#">Forgot Password?</a>
-                        </div>
                         <button class="btn-login">Login</button>
+                        <div class="logreg-link">
+                            <p>Tidak Memiliki Akun ? <a href="#" class="register-link">Hubungi Owner</a></p>
+                        </div>
+                    </form>
+                </div>
+                <!--Form Box Hubungi Owner-->
+                <div class="form-box call-owner">
+                    <div class="logreg-title">
+                        <h2>Hubungi Owner</h2>
+                        <p>Jika belum mempunyai ID Silahkan hubungi Owner</p>
+                    </div>
+                    <form action="#">
+                        <div class="input-box">
+                            <span class="icon"><i class='bx bx-envelope'></i></span>
+                            <input type="email" name="email" id="#email" required>
+                            <label for="email">E-Mail</label>
+                        </div>
+                        <div class="input-box">
+                            <span class="icon"><i class='bx bxs-user'></i></span>
+                            <input type="text" name="username" id="#username" required>
+                            <label for="usernamel">username</label>
+                        </div>
+                        <div class="input-box">
+                            <span class="icon"><i class='bx bx-message-rounded-minus'></i></span>
+                            <input type="text" name="reason" id="#reason" required>
+                            <label for="reason">Alasan mendaftar</label>
+                        </div>
+                        <button class="btn-login">Send</button>
+                        <div class="logreg-link">
+                            <p>Sudah Memiliki Akun? <a href="#" class="login-link">Login</a></p>
+                        </div>
                     </form>
                 </div>
             </div>
             </logreg>
         </div>
     </section>
+    <script src="src/script.js"></script>
 </body>
+
 </html>

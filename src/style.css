@@ -217,3 +217,66 @@
 .logreg-link p a:hover{
     text-decoration: underline;
 }
+
+.hamburger-menu {
+    position: absolute;
+    top : 20px;
+    right: 15px;
+    flex-direction: column;
+    display: none;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.hamburger-menu .bar{
+    height: 4px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 800px){
+    .hamburger-menu{
+        display: flex;
+    }
+
+
+    .navbar{
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        backdrop-filter: blur(40px);
+    }
+
+    .navbar a{
+        width: 100%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+    .header{
+        align-items: normal;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .btnloginPopup{
+        padding: 20px 20px 20px 20px;
+        width: 100%;
+    }
+
+    .navbar.active{
+        display: flex;
+    }
+
+    .wrapper{
+        width: 100%;
+    }
+}
